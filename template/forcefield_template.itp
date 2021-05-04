@@ -1,0 +1,8 @@
+; Coarse-grained forcefield with Mie potential parameters
+
+[ defaults ]
+; nbfunc      comb_rule   gen-pairs   fudgeLJ     fudgeQQ
+  1           1           no          1           1
+
+$FF_NONBONDED
+$MOLECULES

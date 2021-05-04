@@ -1,0 +1,11 @@
+; Non-bonded forcefield with coarse grained Mie potential
+
+[ atomtypes ]
+; name  atom_num   mass       charge   ptype      C            A
+$ATOM_TYPES
+
+$NBP_START
+[ nonbond_params ]
+; i    j     func  C              A
+$NONBOND_PARAMS
+$NBP_STOP

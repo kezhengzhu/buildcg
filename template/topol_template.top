@@ -1,0 +1,11 @@
+; Topology file
+
+#include "$FORCEFIELD"
+
+[ system ]
+; Name
+$SYSNAME
+
+[ molecules ]
+; compound  #mols
+$N_MOLECULES

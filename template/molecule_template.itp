@@ -1,0 +1,15 @@
+; $MOLECULE_NAME
+
+[ moleculetype ]
+; molname nrexcl
+$MOLECULE_TYPE
+
+[ atoms ]
+; nr    type  resnr  res     atom  cgnr  charge  mass
+$ATOMS
+
+$BONDS_START
+[ bonds ]
+; i    j    func  r0 (nm)   kb (kJ/(mol nm2))
+$BONDS
+$BONDS_STOP
